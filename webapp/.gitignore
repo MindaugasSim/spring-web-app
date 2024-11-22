@@ -33,7 +33,10 @@ build/
 .vscode/
 
 ### Keycloak ###
-../keycloak-26.0.5/
+/keycloak-26.0.5/
+
+# Ignore tmp directory
+/tmp/
 
 ### Temporary and Logs ###
 *.log
