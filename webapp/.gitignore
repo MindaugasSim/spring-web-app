@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Keycloak ###
+../keycloak-26.0.5/
+
+### Temporary and Logs ###
+*.log
+*.tmp
+*.bak
+*.swp
+
+### OS Generated Files ###
+*.DS_Store
+Thumbs.db
+
+### Optional: Maven Wrapper Files ###
+mvnw
+mvnw.cmd
+.mvn/
+
+### Optional: Environment Files ###
+.env

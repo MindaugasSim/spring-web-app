@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: webapp
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/WebAppRealm
+
+keycloak:
+  realm: WebAppRealm
+  auth-server-url: http://localhost:8080
+  resource: spring-boot-app
+  credentials:
+    secret: QXZXDSA1VKXxlF5bfK7g6dHI86efznTA
+  principal-attribute: preferred_username
+
+server:
+  port: 8081
+
+logging:
+  level:
+    org.springframework.security: DEBUG
